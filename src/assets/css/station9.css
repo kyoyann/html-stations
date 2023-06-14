@@ -1,0 +1,50 @@
+.card{
+  background-color: #fff;
+  padding: 5px;
+}
+
+.card__img-top{
+  width: 288px;
+  height: 182px;
+  margin-bottom: 10px;
+}
+.card__title{
+  color: #282828;
+  size: 14px;
+}
+
+.card__description{
+  color: #282828;
+  size: 12px;
+}
+header{
+  background-color: #ffffff;
+}
+body{
+  background-color: #c4c4c4;
+}
+footer{
+  background-color: #ffffff;
+}
+
+/*1280px以下で文字色が黄色に*/
+@media screen and (max-width: 768px) and (min-width: 321px){
+  /* 1280px以下で適用させたいcssを記述する部分 */
+  .card__title{
+    font-size: 10px;
+  }
+  .card__description{
+    font-size: 8px;
+  }
+}
+  /*768px以下で文字色が青色に*/
+@media screen and (max-width: 320px){
+  .card__title{
+    font-size: 10px;
+  }
+  .card__description{
+    display: none;
+  }
+}
+
+
